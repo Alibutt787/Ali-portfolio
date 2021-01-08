@@ -1,0 +1,46 @@
+.mar{
+  margin-top: 100px;
+}
+.co{
+  background-color: #555;
+  color: white;
+ 
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+ 
+}
+.vis:focus{
+    background-color:  #0095F6;
+}
+
+.vis:visited{
+  background-color:  #0095F6;
+}
+.hak:hover{
+          
+             background-color: #f9f9f9;
+}
+.bot {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  position: fixed;
+}
+
+.Link {
+  
+  display:block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 36px;
+ 
+  
+}
+
