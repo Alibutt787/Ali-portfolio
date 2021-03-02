@@ -23,7 +23,7 @@ function App() {
         <div className="con">
 
           <div className="  d-flex flex-row co  justify-content-between fixed-top" >
-            <div className="co" style={{ fontSize: "40px" }}><i class="fas fa-user-tie"></i><b>AQIB</b></div>
+            <div className="co" style={{ fontSize: "40px" }}><b>AQIB Portfolio</b><i class="fas fa-user-tie"></i></div>
             <div className="dropdown co">
               <button className="btn  " type="button" data-toggle="dropdown" style={{ width: "50px", height: "50px" }}>
                 <i className="fas fa-bars "  style={{fontSize: "2em"}}></i></button>
