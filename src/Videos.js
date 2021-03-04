@@ -3,10 +3,7 @@ import ReactPlayer from 'react-player'
 import { Link } from 'react-router-dom'
 import './App.css'
 
-
-
 export const hy = {
-
     AQIB_turkey0: { url: "https://youtu.be/oJ4ZLYUdPQE" },
     AQIB_turkey11: { url: "https://youtu.be/9BXChnRgz5k" },
     AQIB_turkey20: { url: "https://youtu.be/ekdmK9Ynur8" },
@@ -27,24 +24,23 @@ export const Videos = () => {
 
     return (
         <div className="container-md pk" style={{ margin: "0 auto", opacity: 0.9, width: "100%", backgroundColor: "grey" }}>
-             <h3><b>Videos</b></h3>
+            <h3><b>Videos</b></h3>
             {Object.entries(hy).map(([slug, { url }]) => {
-                return <div className="hak" > 
-                   <Link  to={`/Videos/${slug}`} key={slug}  >
-                     {
-                      <ReactPlayer className="hak" id="sd"  
-                            onPlaying={false} 
-                            playsInline={false}    // control whether the video should play inline
-                            loop={true}          // control whether the video should loop when ended
-                            rel="false"
-                          
-                            showinfo="false"
-                            controls={0}
-                            modestbranding="false"
-                            width="100%" height="300px" url={url}  />
-            }
+                return <div className="hak" >
+                    <Link to={`/Videos/${slug}`} key={slug}  >
+                        {
+                            <ReactPlayer className="hak" id="sd"
+                                onPlaying={false}
+                                playsInline={false}    // control whether the video should play inline
+                                loop={true}          // control whether the video should loop when ended
+                                rel="false"
+                                showinfo="false"
+                                controls={0}
+                                modestbranding="false"
+                                width="100%" height="300px" url={url} />
+                        }
                         <button className="btn btn-primary  vis"> open in new tab<i class="fas fa-location-arrow">
-                            </i> </button></Link> </div>
+                        </i> </button></Link> </div>
 
             })}
 

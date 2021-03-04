@@ -11,10 +11,10 @@ export const Home = () => {
       <div className="card-body  " >
         <div className="  " style={{ margin: "0 auto", marginLeft: "20%" }}>
           <h3 className="card-title"><i class="fas fa-user"></i><b>  Aqib Ali Butt</b></h3>
-          <h5 className="card-text"><b> <i class="fas fa-university"></i>   Studying in Punjab University</b></h5>
+          <h5 className="card-text"><b> <i class="fas fa-university"></i>   BSCS from Punjab University</b></h5>
           <h5 className="card-text"><i class="fas fa-map-marker-alt"></i><b>  Live in Sialkot</b></h5>
-          <h5 className="card-text"><i class="far fa-calendar-alt"></i><b>  Wishing me on 10 Dec </b></h5>
-          <h5 className="card-text"><i class="fas fa-laptop-code"></i><b>  Learning phase</b></h5>
+          <h5 className="card-text"><i class="far fa-calendar-alt"></i><b>  Wishing me on 10 Nov </b></h5>
+          <h5 className="card-text"><i class="fas fa-laptop-code"></i><b>  To Be Continued...</b></h5>
 
         </div>
         <b className="card-text"><i class="fas fa-edit"></i> All limitations are self-imposed.</b>
